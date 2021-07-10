@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+    <title>Barbearia Alura</title>
+</head>
+<body>
+   
+    <header>
+        <div class="caixa">
+            <h1><img src="logo.png" alt="logo"></h1>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>    
+        </nav>
+    
+        </div>
+    </header>
+
+    <img class="banner" src="banner.jpg" alt="barbearia">
+    
+    <main>    
+        <section class="principal">
+            <h2 class="titulo-principal">Sobre a Barbearia Alura</h2>
+            
+            <img class="utensilios" src="utensilios.jpg" alt="utensilios de um barbeiro.">
+            
+            <p>Localizada no coração da cidade a <strong> Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p> 
+
+            <p id="missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.</em></p> 
+
+            <p> Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p> 
+
+        </section>
+
+        
+        <section class="mapa">
+            <h3 class="titulo-principal">Nosso Estabelecimento</h3>
+            <p>Nosso estabelecimento está localizado no coração da cidade.</p>
+            <div class="mapa-conteudo">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58503.13484388058!2d-46.632554!3d-23.588335200000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a2b2ed7f3a1%3A0xab35da2f5ca62674!2sCaelum%20-%20Escola%20de%20Tecnologia!5e0!3m2!1spt-BR!2sbr!4v1623287424388!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            
+        </section>
+        
+        <section class="beneficios">
+            <h3 class="titulo-principal">Benefícios</h3>
+            
+            <div class="conteudo-beneficios">
+                <ul class="lista-beneficios">
+                    <li class="itens">Atendimento aos Clientes</li>
+                    <li class="itens">Espaço Diferenciado</li>
+                    <li class="itens">Localização</li>
+                    <li class="itens">Profissionais Qualificados</li>
+                    <li class="itens">Pontualidade</li>
+                    <li class="itens">Limpeza</li>
+                </ul><img class="imgbeneficios" src="beneficios.jpg" alt="beneficio">
+            </div>
+            
+            <div class="video">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/wcVVXUV0YUY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <img src="logo-branco.png" alt="logo-branco">
+        <p class="copyright">&copy; Copyright Barbearia Alura 2021</p>
+    </footer>
+    
+</body>
+</html>
+
+
+
+ <!--
+        ** Aula 1 - parte 1 **
+        Uma introdução ao HTML e às suas tags
+        Como definir o título e os parágrafos de um texto
+        Utilizando as tags <h1> e <p>, respectivamente
+        Como dar destaque para algumas informações do texto, deixando-as em negrito, utilizando a tag <strong>
+        Como dar ênfase para algumas informações do texto, deixando-as em itálico, utilizando a tag <em>
+
+        ** Aula 1 - parte 2**
+        A definir a estrutura básica do HTML
+        Com a tag DOCTYPE, definimos qual versão do HTML estamos utilizando
+        Dentro desta tag, podemos definir a linguagem da página, através da propriedade lang
+        Como passar as informações do encoding da nossa página para o navegador, através da tag <meta> e da propriedade charset
+        Como definir o título de uma página, através da tag <title>
+        Como separar as informações que estão sendo passadas para o navegador, utilizando a tag <head>
+        Como separar o conteúdo da página, utilizando a tag <body>
+        
+        ** Aula 1 - parte 3 **
+        A mexer na apresentação dos textos
+        No alinhamento deles (text-align)
+        No tamanho da fonte (font-size)
+        Na cor de fundo (background)
+        Na cor do texto (color)
+        CSS inline
+        Na linha onde temos a nossa tag, adicionamos a propriedade do CSS
+        A tag <style>
+        Dentro da tag, podemos colocar marcações de CSS referentes aos elementos que temos no nosso HTML
+        A apresentação do CSS com um arquivo externo
+        Como funciona o estilo em cascata do CSS
+        Como importar um arquivo externo de CSS dentro da nossa página HTML
+        Como representar cores no CSS
+        Através do nome da cor
+        Através do seu hexadecimal
+        Através do seu RGB
+
+         ** Aula 1 - parte 4 **
+        Como reestruturar o nosso código, removendo os CSS inline e colocando-os no arquivo CSS externo
+        Como criar um identificador para marcar especificamente um elemento
+        Como fazer referência a esse identificador no CSS
+        Como adicionar uma imagem à nossa página
+        Como ajustar a altura do elemento, através da propriedade height
+        Como ajustar a largura do elemento, através da propriedade width
+        Como ajustar o espaçamento interno do elemento, através da propriedade padding
+        Como ajustar o espaçamento externo do elemento, através da propriedade margin
+        Como se comporta um time de front-end hoje em dia
+
+        ** Aula 1 - parte 5**
+            A trabalhar com listas não-ordenadas e listas ordenadas
+            Para cada um dos itens da lista, utilizamos a tag <li>
+            O conceito das classes no CSS
+            Elas servem para marcar itens, só que são repetíveis
+            Como referenciar uma classe no CSS
+            Divisões de conteúdo, utilizando a tag <div>
+            Os comportamentos inline e block
+        
+         ** Aula 1  - parte 6 **
+            O conceito de cabeçalho da página e como criá-lo
+            Que o cabeçalho da página deve ter mais destaque
+            Que não é recomendado criar estilos usando tags
+                O ideal é usarmos classes para tudo
+    -->
+
+    <!--
+        Aula 4 parte 1
+        A ajustar a página principal para utilizar os mesmos padrões da página de produtos
+        Medidas proporcionais com CSS
+        Como funciona a flutuação dos elementos e como modificá-la, com a propriedade float do CSS
+        Como limpar o float, com a propriedade clear do CSS
+    
+        Aula 4 parte 2 
+        A utilizar fontes externas nas nossas páginas
+        Como incorporar um mapa à nossa página
+        Como incorporar um vídeo à nossa página
+
+        Aula 4 parte 3
+
+        A melhorar mais ainda a semântica da página principal, com novas divisões, classes, etc
+        Novas pseudo-classes
+        Como aplicar um background gradiente na página
+        Pseudo-elementos
+
+
+        Aula 4 parte 4 
+        Seletores avançados CSS
+        Seletor >, para acessar os filhos de determinado elemento. Por exemplo, para acessar todos os p dentro de main:
+        main > p {
+        }COPIAR CÓDIGO
+        Seletor +, para acessar o primeiro irmão de determinado elemento. Por exemplo, para acessar o primeiro p após um img:
+        img + p {
+        }COPIAR CÓDIGO
+        Seletor ~, para acessar todos os irmãos de determinado elemento. Por exemplo, para acessar todos os p após um img:
+        img ~ p {
+        }COPIAR CÓDIGO
+        Seletor not, para acessar os elementos, exceto algum. Por exemplo, para acessar todos os p dentro de main, exceto o p que tem id missao:
+        main p:not(#missao) {
+        }COPIAR CÓDIGO
+        Como fazer contas com CSS, com a propriedade calc
+
+        Aula 4 parte 5 
+
+        Nesta aula, aprendemos:
+
+        Como manipular a opacidade dos elementos, com a propriedade CSS opacity
+        Como manipular a opacidade das cores
+        Como adicionar um sombreamento em volta dos elementos, com a propriedade CSS box-shadow
+        Como adicionar um sombreamento em textos, com a propriedade CSS text-shadow
+
+        *** Aula 4 parte 6 ***
+
+        Design responsivo: como ajustar o estilo da nossa página de acordo com o tamanho da tela do dispositivo que a acesse
+        Meta tag de Viewport
+        Media Queries
+        
+    -->
